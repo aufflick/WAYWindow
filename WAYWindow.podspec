@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'WAYWindow'
-  spec.version      = '0.0.2'
+  spec.version      = '0.0.3'
   spec.license      = { :type => 'BSD' }
   spec.homepage     = 'https://github.com/weAreYeah/WAYWindow'
   spec.authors      = { 'Raffael Hannemann' => 'hello@weareYeah.com' }
@@ -9,5 +9,5 @@ Pod::Spec.new do |spec|
   spec.source_files = 'WAYWindow/*.{h,m}'
   spec.framework    = 'AppKit'
   spec.requires_arc = true
-  spec.platform     = :osx
+  spec.platform     = :osx, '10.7'
 end
